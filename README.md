@@ -3,16 +3,6 @@
 
 if it is helpful for your research, you can cite the following paper:
 ```bibtex
-@misc{di2026empoweringallinloophealthmanagement,
-title={Empowering All-in-Loop Health Management of Spacecraft Power System in the Mega-Constellation Era via Human-AI Collaboration}, 
-author={Yi Di and Zhibin Zhao and Fujin Wang and Xue Liu and Jiafeng Tang and Jiaxin Ren and Zhi Zhai and Xuefeng Chen},
-year={2026},
-eprint={2601.12667},
-archivePrefix={arXiv},
-primaryClass={cs.AI},
-url={https://arxiv.org/abs/2601.12667}, 
-}
-
 @article{DI2025113380,
 title = {PhyGNN: Physics guided graph neural network for complex industrial power system modeling},
 journal = {Mechanical Systems and Signal Processing},
