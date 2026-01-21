@@ -11,7 +11,9 @@ pages = {113380},
 year = {2025},
 issn = {0888-3270},
 doi = {https://doi.org/10.1016/j.ymssp.2025.113380},
-url = {https://www.sciencedirect.com/science/article/pii/S0888327025010817}
+url = {https://www.sciencedirect.com/science/article/pii/S0888327025010817},
+author = {Yi Di and Fujin Wang and Zhi Zhai and Zhibin Zhao and Xuefeng Chen},
+keywords = {Physics guided graph neural network, Spacecraft power system, Multivariate time series, Complex industrial system},
 }
 ```
 
