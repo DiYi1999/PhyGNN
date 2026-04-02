@@ -150,7 +150,7 @@ class SPS_Model_PINN(nn.Module):
         :param A: (node_num, node_num)
         :param X: (batch_size, sensor_num, lag)
         :param X_norm: (batch_size, sensor_num, lag)
-        :param WC: (batch_size, 4, lag), actually are working conditions: irradiance, temperature, wind speed, load
+        :param WC: (batch_size, 4, lag), actually are working conditions: Irradiation,Temperature,Incidence_Angle,Load_Signal
         :param WC_norm: (batch_size, 4, lag), normalized working conditions
         :param T: (batch_size, 5, lag), the time information, DAY, HOUR, MINUTE, SECOND, TIMESTAMP
         :param init_sample: (batch_size, sensor_num, lag) the initial state at the beginning of the simulation
