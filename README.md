@@ -16,6 +16,9 @@ keywords = {Physics guided graph neural network, Spacecraft power system, Multiv
 }
 ```
 
+### And we We are currently developing a more comprehensive and enhanced version of our dataset. If you are interested, welcome to follow our updates. We hope it will be helpful to you: [https://diyi1999.github.io/XJTU-SPS/](https://diyi1999.github.io/XJTU-SPS/)
+
+
 ### Results Visualization
 
 Results of Pure Physics Model:
@@ -26,5 +29,3 @@ Improvement of PhyGNN compared to Pure Physics Model:
 
 Improvement of PhyGNN compared to Pure Data-driven Model:
 ![Improvement of PhyGNN compared to Pure Data-driven Model](./PhyGNN/PhyGNN_com_PureData.jpg)
-
-### And we We are currently developing a more comprehensive and enhanced version of our dataset. If you are interested, welcome to follow our updates. We hope it will be helpful to you: [https://diyi1999.github.io/XJTU-SPS/](https://diyi1999.github.io/XJTU-SPS/)
