@@ -6,6 +6,9 @@ import torch.nn.functional as F
 
 class OneAdjGCN(nn.Module):
     def __init__(self, node_num, residual_alpha=0, LeakyReLU_slope=0.01):
+        """
+        This is a moudle of G3CN used in the paper, from https://github.com/DiYi1999/G3CN, compared with GCN and GAT, G3CN focuses on multi-sensor time series, especially when the correlation between sensor variables is not "similarity" but "complex nonlinear correlation.
+        """
 
         super(OneAdjGCN, self).__init__()
 
@@ -39,7 +42,7 @@ class OneAdjGCN(nn.Module):
 class MAdjGCN(nn.Module):
     def __init__(self, K, node_num, residual_alpha=0, LeakyReLU_slope=0.01):
         """
-        This is the G3CN used in the paper, https://github.com/DiYi1999/G3CN
+        This is a moudle of G3CN used in the paper, from https://github.com/DiYi1999/G3CN, compared with GCN and GAT, G3CN focuses on multi-sensor time series, especially when the correlation between sensor variables is not "similarity" but "complex nonlinear correlation.
         """
 
         super(MAdjGCN, self).__init__()
@@ -72,7 +75,7 @@ class MAdjGCN(nn.Module):
 class CMTS_GCN(nn.Module):
     def __init__(self, CMTS_GCN_K_nums, node_num, CMTS_GCN_residual=0, LeakyReLU_slope=0.01):
         """
-        This is the G3CN used in the paper, from https://github.com/DiYi1999/G3CN
+        This is the G3CN used in the paper, from https://github.com/DiYi1999/G3CN, compared with GCN and GAT, G3CN focuses on multi-sensor time series, especially when the correlation between sensor variables is not "similarity" but "complex nonlinear correlation.
         """
 
         super(CMTS_GCN, self).__init__()
